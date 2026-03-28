@@ -1,0 +1,106 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(135deg, #fff0f6, #e6ccff);
+  margin: 0;
+}
+
+h1 {
+  background: linear-gradient(90deg, #ff4da6, #b266ff);
+}
+
+h1:hover {
+  color: hotpink;
+  cursor: pointer;
+}
+
+.tagline {
+  color: grey;
+}
+
+nav {
+  background: linear-gradient(
+    90deg,
+    rgba(230, 200, 255, 0.8),
+    rgba(255, 182, 193, 0.8)
+  );
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 10px;
+  color: rgb(130, 0, 150);
+  font-weight: bold;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: hsl(330, 100%, 60%);
+}
+
+.sticker {
+  border: 2px solid lavender;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  transition: transform 0.2s;
+}
+
+.sticker:hover {
+  background-color: #ffe6f2;
+  border-color: hotpink;
+  transform: scale(1.05);
+}
+
+#shop-title {
+  color: #ff4da6;
+}
+
+footer {
+  background: linear-gradient(to right, #e6ccff, #ffd6eb);
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+button {
+  background: linear-gradient(
+    135deg,
+    rgb(150, 0, 200),
+    hsl(330, 100%, 60%)
+  );
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(
+    135deg,
+    hsl(330, 100%, 60%),
+    rgb(150, 0, 200)
+  );
+  cursor: pointer;
+}
+
+.sticker-gallery {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sticker-gallery .sticker {
+  display: inline-block;
+  vertical-align: top;
+  width: 165px;
+  margin-right: 10px;
+}
+
+main section {
+  margin-bottom: 30px;
+}
+
+header {
+  text-align: center;
+}
